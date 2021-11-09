@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Home | Next.js</title>
+        <title>Home</title>
         <meta name="description" content="Next.js Google Analytics" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
