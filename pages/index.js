@@ -1,8 +1,16 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { event } from 'nextjs-google-analytics'
 
 export default function Home() {
+  const onSubmit = () => {
+    event('submit_form', {
+      category: 'Contact',
+      label: 'message',
+    })
+  }
+
   return (
     <div className={styles.container}>
       <Head>
@@ -16,6 +24,7 @@ export default function Home() {
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
+        <button onClick={onSubmit}>Submit</button>
       </main>
 
       <footer className={styles.footer}>
