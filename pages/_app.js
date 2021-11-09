@@ -6,7 +6,7 @@ function App({ Component, pageProps }) {
 
   return (
     <>
-      <GoogleAnalytics strategy="lazyOnLoad" />
+      <GoogleAnalytics strategy="lazyOnload" />
       <Component {...pageProps} />
     </>
   )
