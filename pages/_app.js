@@ -1,7 +1,15 @@
+import { GoogleAnalytics, usePagesViews } from "nextjs-google-analytics"
 import '../styles/globals.css'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function App({ Component, pageProps }) {
+  usePagesViews()
+
+  return (
+    <>
+      <GoogleAnalytics strategy="lazyOnLoad" />
+      <Component {...pageProps} />
+    </>
+  )
 }
 
-export default MyApp
+export default App

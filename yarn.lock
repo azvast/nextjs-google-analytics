@@ -2010,6 +2010,11 @@ next@12.0.3:
     "@next/swc-win32-ia32-msvc" "12.0.3"
     "@next/swc-win32-x64-msvc" "12.0.3"
 
+nextjs-google-analytics@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/nextjs-google-analytics/-/nextjs-google-analytics-1.0.9.tgz#29e0283c9d243644810a11cdf17d781c07838006"
+  integrity sha512-P7WXf4pgMCsac1jfMMN6EN+n0Q0edQ5andfzNCjjApnNH9D+CPLuW8Fo6R2DIVolqjaH5AdhCNScDFMQs4UjOA==
+
 node-fetch@2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
